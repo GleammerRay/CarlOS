@@ -40,6 +40,7 @@ Discord community moderation assistant.
 ### Moderator commands
 
 - `/warn` - Warn user.
+- `/topics` - Manage and list report topics.
 - `/stats` - Get report summaries.
 
 ### Admin commands

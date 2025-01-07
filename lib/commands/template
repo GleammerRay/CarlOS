@@ -31,7 +31,7 @@ class Command {
 
   async execute(interaction) {
     // TODO: implement command execution
-    return this.rest.createEphemeralInteractionResponse(interaction, { content: 'Hello World!【=◕‿↼✿=】' });
+    return await this.rest.createEphemeralInteractionResponse(interaction, { content: 'Hello World!【=◕‿↼✿=】' });
   }
 
   async executeButton(interaction) {
